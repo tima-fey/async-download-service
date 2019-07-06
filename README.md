@@ -36,6 +36,23 @@ python server.py
 
 Сервер запустится на порту 8080, чтобы проверить его работу перейдите в браузере на страницу [http://127.0.0.1:8080/](http://127.0.0.1:8080/).
 
+## Опции запуска
+
+```Bash
+python3 server.py --help
+usage: server.py [-h] [--timeout TIMEOUT] [--dir DIR]
+                 [--logging {enable,disable}]
+
+Send photos archive
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --timeout TIMEOUT     Set a timeout between chunks sendind
+  --dir DIR             Set a dir with photos ./test_photos by default
+  --logging {enable,disable}
+                        enable/disable logging
+```
+
 ## Как развернуть на сервере
 
 ```bash
